@@ -1,0 +1,11 @@
+command-block-overrides:
+  - "kill"
+  - "icanhasbukkit"
+  - "me"
+  - "teammsg"
+  - "tell"
+  - "tm"
+  - "trigger"
+  - "ver"
+  - "version"
+  - "w"

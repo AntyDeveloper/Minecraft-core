@@ -1,0 +1,44 @@
+name: MineCashCore
+version: '${project.version}'
+main: pl.minecash.minecash.Main
+api-version: 1.17
+authors: [ AntyDev ]
+description: Zaebisty core
+depend: [PlaceholderAPI]
+permission-message: §8» §cNie masz permisji!
+commands:
+  bc:
+    description: tak o.
+  pomoc:
+    description: Komenda pomocy.
+  chat:
+    description: tak
+    aliases: c
+  plugin:
+    description: kto zrobil core
+    aliases:
+    - pl
+  sun:
+  day:
+  night:
+  gm:
+  msg:
+  heal:
+  fly:
+  feed:
+  kill:
+  core:
+  setspawn:
+  spawn:
+
+permissions:
+  staff.cmd:
+    default: op
+    description: Wszystkie permisjie.
+  gracz.cmd:
+    default: true
+  adm.cmd:
+    description:  admcmd
+
+
+
